@@ -14,4 +14,4 @@ export async function downloadImage(_id, photo) {
   FileSaver.saveAs(photo, `download-${_id}.jpg`);
 }
 
-export const BASE_URL = "https://localhost:8080";
+export const BASE_URL = "https://dall-e-app-backend-bguc.onrender.com";
