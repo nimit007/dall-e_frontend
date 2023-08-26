@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/create-post" element={<CreatePost />} />
         </Routes>
       </main>
-      <footer class="text-center mb-4">
+      <footer class="text-center mb-4 mt-2">
          <h5>
          &copy; Nimit Jain
         </h5>
