@@ -13,3 +13,5 @@ export function getRandomPrompt(prompt) {
 export async function downloadImage(_id, photo) {
   FileSaver.saveAs(photo, `download-${_id}.jpg`);
 }
+
+export const BASE_URL = "https://localhost:8080";
